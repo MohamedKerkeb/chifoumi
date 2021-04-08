@@ -20,8 +20,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #5CDB95;
-    color: #05386B;
+    background: ${({ theme }) => theme.colors.body};
+    color: ${({ theme }) => theme.colors.text};
     font-family: 'Major Mono Display', monospace;
     width: 100%;
     height: 100%;

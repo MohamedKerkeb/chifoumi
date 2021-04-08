@@ -18,5 +18,5 @@ export const HeaderContainer = styled.div`
 export const LogoH1 = styled.h1`
 	font-size: 2.5rem;
 	line-height: 1;
-	color: #8ee4af;
+	color: ${({ theme }) => theme.colors.text} ${'' /* color: #8ee4af; */};
 `;

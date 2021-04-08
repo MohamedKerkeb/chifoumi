@@ -16,7 +16,7 @@ export const Btn = styled.button`
 	padding: 12px 24px;
 	border: 2px solid #05386b;
 	border-radius: 25%;
-	background: #05386b;
+	background: ${({ theme }) => theme.colors.button.background};
 	color: #fff;
 	outline: 0;
 	position: relative;

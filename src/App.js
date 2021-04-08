@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from './Components/footer';
 import Header from './Components/Header';
 import Playing from './Components/Play';
 
-import styled from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 
 import { GlobalStyle } from './config/GlobalStyle';
+import { useTheme } from './config/theme';
 
 const AppWrapper = styled.div`
 	height: 100vh;
@@ -26,16 +27,27 @@ const AppContainer = styled.div`
 `;
 
 function App() {
+	const { theme, themeLoaded } = useTheme();
+	const [selectedTheme, setSelectedTheme] = useState(theme);
+
+	useEffect(() => {
+		setSelectedTheme(theme);
+	}, [themeLoaded]);
+
 	return (
 		<>
-			<GlobalStyle />
-			<AppWrapper>
-				<AppContainer>
-					<Header />
-					<Playing />
-					<Footer />
-				</AppContainer>
-			</AppWrapper>
+			{themeLoaded && (
+				<ThemeProvider theme={selectedTheme}>
+					<GlobalStyle />
+					<AppWrapper>
+						<AppContainer>
+							<Header />
+							<Playing />
+							<Footer />
+						</AppContainer>
+					</AppWrapper>
+				</ThemeProvider>
+			)}
 		</>
 	);
 }

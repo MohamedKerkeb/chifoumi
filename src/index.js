@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import { ThemeProvider } from 'styled-components';
-import { theme } from './config/theme';
+import * as themes from './config/schema.json';
+import { setTols } from './utils/storage';
 
-ReactDOM.render(
-	<React.StrictMode>
-		<ThemeProvider theme={theme}>
-			<App />
-		</ThemeProvider>
-	</React.StrictMode>,
-	document.getElementById('root')
-);
+const Index = () => {
+	setTols('all-themes', themes.default);
+	return <App />;
+};
+
+ReactDOM.render(<Index />, document.getElementById('root'));
