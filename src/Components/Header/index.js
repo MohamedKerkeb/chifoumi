@@ -35,17 +35,21 @@ const Header = (props) => {
 		return (
 			<themeWrapper
 				style={{
-					backgroundColor: 'white',
 					height: '50%',
 					width: '100%',
 					display: 'flex',
 					flexDirection: 'row',
 					justifyContent: 'center',
+					alignItems: 'center',
 				}}>
 				<Themebutton
 					onClick={(theme) => themeSwitcher(props.theme)}
 					style={{
 						backgroundColor: `${data[_.camelCase(props.theme.name)].colors.button.background}`,
+						border: '1px solid red',
+						display: 'block',
+						margin: '10px',
+						alignItems: 'center',
 					}}></Themebutton>
 			</themeWrapper>
 		);

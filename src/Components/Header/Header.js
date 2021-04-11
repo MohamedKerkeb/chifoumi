@@ -12,10 +12,10 @@ export const HeaderContainer = styled.div`
 	height: 100%;
 	margin: auto;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	border: 1px dashed red;
+	${'' /* border: 1px dashed red; */}
 `;
 
 export const LogoH1 = styled.h1`
@@ -27,13 +27,15 @@ export const LogoH1 = styled.h1`
 `;
 
 export const themeWrapper = styled.div`
-	width: 100%;
+	${
+		'' /* width: 100%;
 	height: 50%;
 	background: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center; */
+	}
 `;
 
 export const Themebutton = styled.button`
