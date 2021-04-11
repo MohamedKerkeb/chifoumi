@@ -14,14 +14,14 @@ export const ButtonContainer = styled.div`
 `;
 export const Btn = styled.button`
 	padding: 12px 24px;
-	border: 2px solid #05386b;
+	border: 2px solid ${({ theme }) => theme.colors.button.background};
 	border-radius: 25%;
 	background: ${({ theme }) => theme.colors.button.background};
 	color: #fff;
 	outline: 0;
 	position: relative;
 	top: 0;
-	box-shadow: 0px 6px #379683;
+	box-shadow: 0px 6px ${({ theme }) => theme.colors.button.boxShadow};
 	transition: 0.05s;
 	cursor: pointer;
 	margin: 10px;
@@ -31,7 +31,7 @@ export const Btn = styled.button`
 
 	&:hover {
 		top: 3px;
-		box-shadow: 0px 3px #8ee4af;
+		box-shadow: 0px 3px ${({ theme }) => theme.colors.button.hoverShadow};
 	}
 
 	&:active {

@@ -41,7 +41,7 @@ function App() {
 					<GlobalStyle />
 					<AppWrapper>
 						<AppContainer>
-							<Header />
+							<Header selected={setSelectedTheme} />
 							<Playing />
 							<Footer />
 						</AppContainer>
