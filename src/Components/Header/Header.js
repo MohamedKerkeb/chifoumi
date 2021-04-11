@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeaderWrapper = styled.div`
 	width: 100%;
 	height: 100px;
-	background: #05386b;
+	background: ${({ theme }) => theme.colors.header.background};
 	${'' /* border: 1px dashed red; */}
 `;
 

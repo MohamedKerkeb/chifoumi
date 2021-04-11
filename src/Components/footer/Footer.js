@@ -9,8 +9,8 @@ export const FooterContainer = styled.div`
 	width: 100%;
 	margin: 20px auto 0 auto;
 	height: 100%;
-	background: #05386b;
-	color: #8ee4af;
+	background: ${({ theme }) => theme.colors.header.background};
+	color: ${({ theme }) => theme.colors.header.text};
 
 	display: flex;
 	justify-content: center;

@@ -13,7 +13,8 @@
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#5CDB95"
+					"text": "#5CDB95",
+					"background": "#05386B"
 				}
 			}
 		},
@@ -21,16 +22,17 @@
 			"id": "T_002",
 			"name": "Dark",
 			"colors": {
-				"body": "#B8DFF0",
+				"body": "#18b2aa",
 				"text": "#FFFFFF",
 				"button": {
 					"text": "#000000",
-					"background": "#1A2C5B",
-					"boxShadow": "#3E4E88",
+					"background": "#c9fb36",
+					"boxShadow": "#46c68f",
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#7971EA"
+					"text": "#067e7a",
+					"background": "#014758"
 				}
 			}
 		},
@@ -47,7 +49,8 @@
 					"hoverShadow": "#f2f4d9"
 				},
 				"header": {
-					"text": "#ff5674"
+					"text": "#f2f4d9",
+					"background": "#ff5674"
 				}
 			}
 		},
@@ -55,16 +58,17 @@
 			"id": "T_004",
 			"name": "Sharp",
 			"colors": {
-				"body": "#ffeb3b",
-				"text": "#292500",
+				"body": "#e8532e",
+				"text": "#fcc1ac",
 				"button": {
-					"text": "#FFFFFF",
-					"background": "#292500",
-					"boxShadow": "#3E4E88",
+					"text": "#fcc1ac",
+					"background": "#57502c",
+					"boxShadow": "#837431",
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#5CDB95"
+					"text": "#fcc1ac",
+					"background": "#1d3f15"
 				}
 			}
 		},
@@ -72,16 +76,17 @@
 			"id": "T_005",
 			"name": "Calm",
 			"colors": {
-				"body": "#80cbc4",
-				"text": "#002b24",
+				"body": "#fcbd2f",
+				"text": "#cb1416",
 				"button": {
 					"text": "#FFFFFF",
-					"background": "#002b24",
-					"boxShadow": "#3E4E88",
+					"background": "#4786c3",
+					"boxShadow": "#082a42",
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#5CDB95"
+					"text": "#1c6f36",
+					"background": "#cb1416"
 				}
 			}
 		},
@@ -89,16 +94,17 @@
 			"id": "T_006",
 			"name": "Cherry Bon Bon",
 			"colors": {
-				"body": "#c62828",
-				"text": "#ffeeed",
+				"body": "#fecbd5",
+				"text": "#d9e2dc",
 				"button": {
 					"text": "#c62828",
-					"background": "#ffeeed",
-					"boxShadow": "#3E4E88",
+					"background": "#f2abd8",
+					"boxShadow": "#fee6da",
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#5CDB95"
+					"text": "#d9e2dc",
+					"background": "#9c8189"
 				}
 			}
 		},
@@ -106,16 +112,17 @@
 			"id": "T_007",
 			"name": "Sea Wave",
 			"colors": {
-				"body": "#9be7ff",
-				"text": "#0d47a1",
+				"body": "#9dd4d6",
+				"text": "#dbcbd8",
 				"button": {
 					"text": "#ffffff",
-					"background": "#0d47a1",
-					"boxShadow": "#3E4E88",
+					"background": "#f3fdff",
+					"boxShadow": "#574585",
 					"hoverShadow": "#8ee4af"
 				},
 				"header": {
-					"text": "#5CDB95"
+					"text": "#dbcbd8",
+					"background": "#111834"
 				}
 			}
 		}
